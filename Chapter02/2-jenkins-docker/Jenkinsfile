@@ -3,7 +3,7 @@ def ecrLoginHelper="docker-credential-ecr-login"
 def region="ap-northeast-2"
 def ecrUrl="935508730602.dkr.ecr.us-east-1.amazonaws.com"
 def repository="my-nginx"
-def deployHost="<Deploy VM Private IP>"
+def deployHost="172.31.9.193"
 
 pipeline {
     agent any
